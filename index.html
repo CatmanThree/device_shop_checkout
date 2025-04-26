@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="./images/default_fav.ico">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <script type="module" src="./scripts/script.js"></script>
+
+    <title>title_here</title>
+</head>
+<body>
+    <header>
+        <h1>Checkout <span>3 ITEMS</span></h1>
+    </header>
+    <main>
+        <div class="cart">
+            <div class="items">                
+                <div class="item_img">
+                    <img src="./images/Gold.png" alt="iphone 12 pro">
+                </div>
+                <div class="item_info">
+                    <div class="text_line item_info_1">
+                        <p class="name">iPhone 12 Pro</p>
+                        <p class="price">$999.&#48;&#48;</p>
+                    </div>
+                    <div class="text_line item_info_2">
+                        <p class="type">Golden</p>
+                    </div>
+                    <div class="text_line item_info_3">
+                        <p class="amount">x 1</p>
+                        <a href=""><img src="./images/close-icon.svg" alt=""></a>
+                    </div>                      
+                </div>   
+                <div class="item_img">
+                    <img src="./images/Apple-watch.png" alt="iphone 12 pro">
+                </div>
+                <div class="item_info">
+                    <div class="text_line item_info_1">
+                        <p class="name">Apple Watch</p>
+                        <p class="price">$399.&#48;&#48;</p>
+                    </div>
+                    <div class="text_line item_info_2">
+                        <p class="type">Blue</p>
+                    </div>
+                    <div class="text_line item_info_3">
+                        <p class="amount">x 1</p>
+                        <a href=""><img src="./images/close-icon.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="item_img">
+                    <img src="./images/iMac.png" alt="iphone 12 pro">
+                </div>
+                <div class=" item_info">
+                    <div class="text_line item_info_1">
+                        <p class="name">iMac</p>
+                        <p class="price">$1199.&#48;&#48;</p>
+                    </div>
+                    <div class="text_line item_info_2">
+                        <p class="type">Green</p>
+                    </div>
+                    <div class="text_line item_info_3">
+                        <p class="amount">x 1</p>
+                        <a href=""><img src="./images/close-icon.svg" alt=""></a>
+                    </div>
+                </div>                
+            </div>
+            <hr>
+            <form action="" class="coupon">
+                <input type="text" name="" id="coupon_field" placeholder="Enter coupon code">
+                <button id="coupon_button">Apply Coupon</button>
+            </form>
+            <div class="sum_calc">                
+                <div class="text_line sum">
+                    <p class="name">Sub Total</p>
+                    <p class="price">$2597.&#48;&#48;</p>
+                </div>
+                <div class="text_line sum">
+                    <p class="name">Tax</p>
+                    <p class="price">$623.28</p>
+                </div>
+                <div class="text_line total">
+                    <p class="name">Total</p>
+                    <p class="price">$3220.28</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact_info">
+            <h2>Contact Information</h2>
+            <form action="">
+                <label for="">First & Last Name</label>
+                <input type="text" placeholder="Enter first & last name">
+
+                <label for="">Email Address</label>
+                <input type="text" placeholder="Enter Email Address">
+
+                <div class="location">
+                <div>
+                    <label for="country">Country</label>
+                    <select name="Finland" id="country">
+                        <option value="Finland"><b>Finland</b></option>
+                    </select>
+                </div>
+                <div> 
+                    <label for="postcode">Postcode</label>
+                    <input id="postcode" type="text" placeholder="00270">
+                </div>
+                </div>
+
+                <button>Continue</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
